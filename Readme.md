@@ -3,7 +3,6 @@
 * Студент: [Ярослав Гурин](https://up.htmlacademy.ru/ecmascript/23/user/1941731).
 * Наставник: [Петр Хасанов](https://htmlacademy.ru/profile/id1058473).
 
-
 ---
 
 _Не удаляйте и не изменяйте папки и файлы:_
