@@ -27,7 +27,7 @@ export const mockedEventPoints = Array.from({
   destination: getRandomNumberFromRange(1, 5),
   startDate: getRandomDateFromRange(new Date(2012, 0, 1), new Date()),
   endDate: getRandomDateFromRange(new Date(), new Date(2077, 0, 1)),
-  price: 20,
+  price: getRandomNumberFromRange(...MIN_MAX_PRICE),
   offers: Array.from(
     new Set(Array.from({ length: 5 }, () => getRandomNumberFromRange(1, 5))),
   ),

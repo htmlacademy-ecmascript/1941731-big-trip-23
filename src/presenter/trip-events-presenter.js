@@ -11,10 +11,9 @@ export default class TripEventsPresenter {
 
   init() {
     this.eventPoints = [...this.eventPointsModel.getEventPoints()];
-
     render(new SortView(), this.tripEventsElement);
-    render(new EditPointView(), this.tripEventsElement);
-    for (let i = 0; i < 3; i++) {
+    render(new EditPointView(this.eventPoints[0]), this.tripEventsElement);
+    for (let i = 1; i < 4; i++) {
       render(new PointItemView(this.eventPoints[i]), this.tripEventsElement);
     }
   }
